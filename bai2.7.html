@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Quản lý sinh viên</title>
+	<style>
+		body{
+			width: 90%;
+			font-family: Arial;
+			margin: 0 auto;
+			background-color: #dcdcdc;
+		}
+		*{
+			box-sizing: border-box;
+		}
+		.top{
+			background-image: url(https://antimatter.vn/wp-content/uploads/2022/05/background-dep-1.jpg);
+			background-size: cover;
+			text-align: center;
+			height: 140px;
+		}
+		.left{
+			background-color: #f0ffff;
+			width: 20%;
+			float: left;
+			height: 500px;
+			color: black;
+			padding-right: 30px ;
+		}.center{
+			width: 60%;
+			float: left;
+			height: 500px;
+			background-color: #ffe4e1;
+		}
+		.right{
+			width: 20%;
+			float: left;
+			height: 500px;
+			background-color: #f0fff0;
+		}
+		.bottom{
+			background-color: #FFE4B5;
+			width: 100%;
+			height: 80px;
+			float: left;
+		}
+		ul{
+			list-style-type: none;
+			list-style: none;
+			margin-left: -35px;
+		}
+		.ke li{
+			border-width: 0.5px;
+			border-style: solid;
+			padding-left: 10px ;
+			line-height: 2;
+			margin-bottom: 2px;
+		}
+
+		a{
+			text-decoration: none;
+		}
+		table{
+			border-collapse: collapse;
+		}
+		th{
+			text-align: center;
+			font-size: bold;
+			font-size: 1.3em;
+		}
+		img{
+			width: 85%;
+			margin-top: 35px;
+			margin-left:20px;
+			height: 200px;
+		}
+		p{
+			margin: auto 0;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="top">
+		<br>
+		<h3> KHOA CÔNG NGHỆ THÔNG TIN - TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP VIỆT TRÌ </h3>
+		<h2> CHƯƠNG TRÌNH QUẢN LÝ SINH VIÊN</h2>
+	</div>
+	<div class="left">
+		<ul class="ke">
+			<li><a href="#"> Trang chủ </a>
+			<li><a href="#"> Quản lý sinh viên </a> 
+			<li><a href="#"> Quản lý điểm </a>
+			<li><a href="#"> Quản lý lớp học </a>
+			<li><a href="#"> Quản lý khoa </a>
+			<li><a href="#"> Quản lý người dùng </a>
+			<li><a href="#"> Chức năng khác </a>
+		</ul>
+	</div>
+	<div class="center">
+		<br>
+		<table border="1" width="90%" cellpadding="10" cellspacing="0"
+		align="center" bgcolor="#FFFFF0">
+			<tr><th colspan="2" bgcolor="faebd7">THÊM SINH VIÊN
+			</th></tr>
+			<tr>
+				<td><label for="msv"> Mã sinh viên</label></td>
+				<td><input type="text" id="msv" name="Mã sinh viên" width="50px"></td>
+			</tr>
+			<tr>
+				<td><label for="ht"> Họ tên</label></td>
+				<td><input type="text" id="ht" name="Họ tên"> </td>
+			</tr>
+			<tr>
+				<td><label for="ns"> Ngày sinh</label></td>
+				<td><input type="text" id="ns" name="Ngày sinh"> </td>
+			</tr>
+			<tr>
+				<td><label for="ha"> Hình</label></td>
+				<td><input type="text" id="ha" name="Hình">
+					<input type="submit" value="Browse..">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Add">
+					<input type="submit" value="Update">
+					<input type="submit" value="Save">
+				</td>
+			</tr>
+		</table>
+
+			<br>
+		<table border="1" width="90%" cellpadding="10" cellspacing="0"
+		align="center" bgcolor="#FFFFF0">
+			<tr><th colspan="5" bgcolor="faebd7"> THÔNG TIN SINH VIÊN</th></tr>
+			<tr>
+				<td> STT</td>
+				<td> MASV</td>
+				<td> Họ tên</td>
+				<td> Ngày sinh</td>
+				<td> Hình </td>
+			</tr>
+			<tr>
+				<td> 1</td>
+				<td> TH09</td>
+				<td> Nguyễn Lan</td>
+				<td> 1/1/1986</td>
+				<td> h1.jpg </td>
+			</tr>
+			<tr>
+				<td> 2</td>
+				<td> TH89</td>
+				<td> Thanh Nhân</td>
+				<td> 1/8/1985</td>
+				<td> h2.jpg </td>
+			</tr>
+		</table>
+	</div>
+	<div class="right">
+		<img src="https://tse3.mm.bing.net/th/id/OIP.G86pBh5Xh1bNu5gGPze2LwHaEK?pid=Api&P=0&h=220">
+		<p>
+			<br>
+			Lớp chuyên đề về HTML và CSS; <br>
+			trang bị kiến thức cơ bản về xây<br>
+			dựng cấu trúc và định dạng trang<br>
+			wed bằng HTML và CSS<br>
+		</p>
+		<ul>
+			<li><a href="#"> Thông báo về lịch thi học kì </a>
+			<li><a href="#"> Nhịp sống trẻ </a> 
+		</ul>
+	</div>
+	<div class="bottom">
+		<p>
+			<br>
+			Khoa Công nghệ Thông tin - Số 9 Tiên Sơn, Phường Thanh Miếu
+			, Tỉnh Phú Thọ <br>
+			Email: khcntt@vui.edu.vn
+		</p>
+	</div>
+</body>
+</html>
